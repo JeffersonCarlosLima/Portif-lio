@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Jefferson Dev</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -39,26 +39,40 @@
     <section class="titulo-pagina">
        <div>
         <p class="minha-descricao">Hello I'm Jefferson</p>
-        <H3 class="meu-nome">Front-End Developer</H3>
+        <H3 class="quem-sou" id="letreiro">Front-End Developer</H3>
        </div>
        <div>
-        <button class="button-titulo-pagina">Resume</button>
+        <a href="#About"><button class="button-titulo-pagina">Resume</button></a>
        </div>
       
     </section>
-    <section>
-        <p>about.</p>
-        <p>
-        Technology, innovation and design.
-Starting his career as a programmer.
-Basic qualities: Proactivity, dedication and a continuous interest in seeking knowledge.
-        </p>
+    <section class="about">
+        <h3 class="title-about"><a name="About"></a>About.</h3>
+        <p class="text-about">Technology, innovation and design. his career as a programmer. Basic qualities: Proactivity, dedication and a continuous interest in seeking knowledge.</p>
     </section>
-    <section>
-        <h4>My Skylls</h4>
+    <section  class="skylls">
+        <h4 class="my-skylls">My Skylls</h4>
         <!--linguagens de programação utilizadas por mim-->
+        <div class="cards-linguagens">
+          <div class="card-model">
+            <img src="/img/html5-brands.svg" class="imagem-card" alt="HTML5">
+            <p class="texto-card">HTML5</p>
+          </div>
+          <div class="card-model">
+            <img src="/img/css3-alt-brands.svg" class="imagem-card" alt="CSS">
+            <p class="texto-card">CSS</p>
+          </div>
+          <div class="card-model">
+            <img src="/img/js-brands.svg" class="imagem-card" alt="JavaScript">
+            <p class="texto-card">JavaScript</p>
+          </div> 
+          <div class="card-model">
+            <img src="/img/python-brands.svg" class="imagem-card" alt="Python">
+            <p class="texto-card">Python</p>
+          </div>
+      </div>
     </section>
-
+    <script src="/efeito-digitação.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 

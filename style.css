@@ -1,27 +1,94 @@
+@import url(variaveis_.css);
+@import url(reset_.css);
+
 .titulo-pagina{
     padding: 24px;
     width: 100%;
     height: 100vh;
-    background-color: black;
+    background-color:var(--dark-blue-3-hex);
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
-.button-titulo-pagina{
+.button-titulo-pagina {
     font-size: 14px;
     font-weight: bold;
     width: 150px;
     height: 48px;
     border-radius: 24px;
 }
-.meu-nome{
+.quem-sou {
     color: white;
     text-align: center; 
-    font-size: 100px;   
+    font-size: 100px;
+    padding: 16px 0;   
 }
+.quem-sou::after{
+    content: "_";
+}
+
 .minha-descricao{
     color: white;
     opacity: 80%;
     text-align: center;
     font-size: 32px;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    height: 60vh;
+    background-color: var(--dark-blue-4-hex);
+}
+.title-about{
+    font-size: 32px;
+    color: var(--branco);
+}
+.skylls{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--dark-blue-5-hex);
+}
+.my-skylls{
+    font-size: 32px;
+    color: var(--branco);
+    
+}
+.text-about{
+    margin-top: 16px;
+    color: var(--branco);
+    font-size: 24px;
+    line-height: 32px;
+    text-align: justify;
+    padding: 0 20%;
+}
+.cards-linguagens{
+    display: flex;
+    flex-direction: row;
+    margin-top: 64px;
+}
+.card-model{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--branco);
+    padding: 8px 16px;
+    border-radius: 10%;
+    width: 150px;
+    height: 200px;
+    justify-content: center;
+    margin-left: 24px;
+
+}
+.imagem-card{
+   width: 70%;
+}
+.texto-card{
+    font-size: 24px;
+    font-weight: bold
 }

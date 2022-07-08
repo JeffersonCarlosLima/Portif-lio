@@ -1,0 +1,20 @@
+:root{
+
+--branco:#FFFf;
+
+/* Color Theme Swatches in Hex */
+--dark-blue-1-hex: #4949BA; 
+--dark-blue-2-hex: #343485; 
+--dark-blue-3-hex: #11112B; 
+--dark-blue-4-hex: #272763;
+--dark-blue-5-hex:#141433;
+
+/* Color Theme Swatches in RGBA */
+--dark-blue-1-rgba:rgba(73, 73, 186, 1);
+--dark-blue-2-rgba: rgba(52, 52, 133, 1);
+--dark-blue-3-rgba: rgba(17, 17, 43, 1);
+--dark-blue-4-rgba: rgba(39, 39, 99, 1);
+--dark-blue-5-rgba: rgba(20, 20, 51, 1);
+
+
+}
