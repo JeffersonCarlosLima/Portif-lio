@@ -11,6 +11,6 @@ for (let i = 0; i < textArr.length; i++) {
                               
                               
                               
-                              }, 300 * i);
+                              }, 100 * i);
     })(i);
 }
