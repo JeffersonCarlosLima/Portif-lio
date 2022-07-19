@@ -97,7 +97,8 @@
 }
 .texto-card{
     font-size: 24px;
-    font-weight: bold
+    font-weight: bold;
+    margin: 8px 0;
 }
 .projects-section{
     display: flex;
@@ -118,36 +119,43 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    background-color: var(--dark-blue-1-hex);
 }
 .card-projects{
+    border-radius: 15px;
+    background: #e8e8f1;
+    box-shadow:  7px 7px 14px #3e3e9e,
+                 -7px -7px 14px #5454d6;
+    padding: 16px 16px;
+    width: 100px;
+    height: 70%;
+    align-items: center;
+    margin-left: 16px;
+    color: var(--dark-blue-4-hex);
     
-    background-color: var(--branco);
-    padding: 8px 16px;
-    border-radius: 16%;
-    width: 30%;
-    height: 80%;
-        /* Center slide text vertically */
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        -webkit-justify-content: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        -webkit-align-items: center;
-        align-items: center;
 }
 
 .imagem-card-project{
-    display: block;
     width: 100%;
-    height: 100%;
+    height: 150px;
     object-fit: cover;
+    border-radius: 8px;
 }
-
+.resume-card{
+    font-size: 16px;
+    margin: 8px 0;
+}
+.botao-card{
+    background-color: var(--dark-blue-5-hex);
+    width: 70%;
+    height: 38px;
+    border-radius: 30px;
+    border: none;
+    color: var(--branco); 
+}
+.botao-card:hover{
+    background-color: var(--dark-blue-1-hex);
+}
 
 
 .my-rodape{
@@ -160,5 +168,11 @@
 }
 
 .text-rodape{
-    color: var(--dark-blue-1-hex);
+    color: var(--branco);
+}
+.languages-domain{
+    background-color: var(--dark-blue-4-hex);
+    width: 100%;
+    height: 60vh;
+    color: var(--branco);
 }
