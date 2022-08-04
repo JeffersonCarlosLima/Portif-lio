@@ -128,7 +128,7 @@
                  -7px -7px 14px #5454d6;
     padding: 16px 16px;
     width: 100px;
-    height: 70%;
+    height: auto;
     align-items: center;
     margin-left: 16px;
     color: var(--dark-blue-4-hex);
