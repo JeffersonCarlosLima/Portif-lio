@@ -114,12 +114,13 @@
 }
 .projects{
     width: 100%;
-    height: 60vh;
+    height: fit-content;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     background-color: var(--dark-blue-1-hex);
+    padding: 24px 0px;
 }
 .card-projects{
     border-radius: 15px;
@@ -197,6 +198,24 @@
     }
     .card-model{
         margin-bottom: 16px;
+    }
+    .projects{
+        padding: 16px 16px 0px;
+        flex-wrap: wrap;
+        
+    }
+    .card-projects{
+    margin-bottom: 16px;
+    }
+    .card-body{
+        height: fit-content;
+    }
+    .texto-card{
+        font-size: 18px;
+    }
+    .resume-card{
+        font-size: 14px;
+        line-height: 20px;
     }
 }
 @media (max-width: 575.98px) {
