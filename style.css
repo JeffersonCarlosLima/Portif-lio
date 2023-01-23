@@ -123,13 +123,13 @@
     padding: 24px 0px;
 }
 .card-projects{
+    width: 500px;
+    height: fit-content;
     border-radius: 15px;
     background: #e8e8f1;
     box-shadow:  7px 7px 14px #3e3e9e,
                  -7px -7px 14px #5454d6;
     padding: 16px 16px;
-    width: 100px;
-    height: 90%;
     align-items: center;
     margin-left: 16px;
     color: var(--dark-blue-4-hex);
@@ -189,7 +189,8 @@
         height: fit-content;
     }
     .my-skylls{
-        margin-top: 16px;
+        font-size: 24px;
+        margin-top: 24px;
         margin-bottom: 16px;
     }
     .cards-linguagens{
@@ -198,14 +199,16 @@
     }
     .card-model{
         margin-bottom: 16px;
+        width: 160px;
+        height: 190px;
     }
     .projects{
-        padding: 16px 16px 0px;
         flex-wrap: wrap;
         
     }
     .card-projects{
     margin-bottom: 16px;
+    width: 262px;
     }
     .card-body{
         height: fit-content;
@@ -217,9 +220,20 @@
         font-size: 14px;
         line-height: 20px;
     }
+    .about{
+        padding: 16px 16px;
+        height: 400px;
+    }
+    .title-about{
+        font-size: 24px;
+    }
+    .text-about{
+        font-size: 16px;
+        width: 420px;
+    }
 }
 @media (max-width: 575.98px) {
-    
+ 
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
